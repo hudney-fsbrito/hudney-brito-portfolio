@@ -1,22 +1,7 @@
 import "./globals.scss";
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Space_Grotesk } from "next/font/google";
 
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-  weight: ['300', '400']
-});
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import { spaceGrotesk } from '@/fonts'
 
 export const metadata: Metadata = {
   title: "Hudney Brito",
@@ -30,8 +15,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${spaceGrotesk.variable} ${geistSans.variable} ${geistMono.variable}`}>
-        <h1 className={`${spaceGrotesk.className}`}>Texto exepmlo g</h1>
+      <body className={`${spaceGrotesk.className}`}>
+        <h1>Texto grande</h1>
         {children}
       </body>
     </html>
