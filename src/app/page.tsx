@@ -6,10 +6,9 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Dev. Web</h1>
         <button>x</button>
-        
       </main>
-      <footer className={styles.footer}>
-      </footer>
+      {/* <footer className={styles.footer}>
+      </footer> */}
     </div>
   );
 }

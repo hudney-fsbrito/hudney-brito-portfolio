@@ -1,8 +1,9 @@
-import "./globals.scss";
+import Link from "next/link";
 import type { Metadata } from "next";
 
+import "./globals.scss";
 import { spaceGrotesk } from "@/fonts";
-import Link from "next/link";
+
 
 export const metadata: Metadata = {
   title: "Hudney Brito",

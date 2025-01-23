@@ -1,12 +1,13 @@
 @import "variables.scss";
 
 .main{
-    background-color: #ffffff;
+    background-color: $alternativeColor;
+    color: $textColorDark;
+    box-shadow: 5px 5px 10px $foreground;
     width: 80vw;
     height: 80vh;
     margin: auto;
     border-radius: 25px;
-    color: $textColorDark;
     font-size: 1.5rem;
 
     display: flex;
