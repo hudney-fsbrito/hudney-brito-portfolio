@@ -14,9 +14,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
 
-    button{
-        width: 20%;
-        height: 30px;
+    .btn{
+        border: none;
+        border-radius: 25px;
+        box-shadow: 0px 0px 6px 10px $foreground;
+        background-color: $eerie-black;
+        color: $tomato;
+        font-weight: 700;
+        width: 30%;
+        height: 50px;
+        padding: 10px 20px;
+        
+        text-align: center;
     }
+    .btn:hover{
+        cursor: pointer;
+    }
+    
 }

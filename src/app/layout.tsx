@@ -20,9 +20,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${spaceGrotesk.className}`}>
         <header>
-          <h1 className="logo">hudney.brito</h1>
-          <Link href={"#"} className="link-menu">work</Link>
-          <Link href={"#"} className="link-menu">about</Link>
+          <h1 className="logo"><Link href={"/"}>hudney.brito</Link></h1>
+          <Link href={"@/work"} className="link-menu">work</Link>
+          <Link href={"@/about"} className="link-menu">about</Link>
         </header>
         {children}
       </body>
