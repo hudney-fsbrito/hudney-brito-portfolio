@@ -24,7 +24,9 @@ export default function RootLayout({
           <Link href={"/workPage"} className="link-menu">work</Link>
           <Link href={"/aboutPage"} className="link-menu">about</Link>
         </header>
-        {children}
+        <main className="page-container">
+          {children}
+        </main>
       </body>
     </html>
   );

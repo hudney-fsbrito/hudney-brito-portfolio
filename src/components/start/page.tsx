@@ -10,6 +10,9 @@ const Start = () => {
   return (
     <div className={`${styles.container}`}>
       <div className={styles.box}>conteúdo</div>
+      <div className={styles.box}>conteúdo</div>
+      <div className={styles.box}>conteúdo</div>
+      <div className={styles.box}>conteúdo</div>
     </div>
   );
 }

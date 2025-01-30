@@ -1,5 +1,10 @@
 "use client"
 const Work = () => {
-    return <h1>Work</h1>
+    return (
+        <div>
+            <h1>Work</h1>
+        </div>
+        
+    )
 }
 export default Work;
