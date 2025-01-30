@@ -8,7 +8,7 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <h1>Dev. Web</h1>
-        <Link href={"@/start"} className={styles.btn}>Aperte! Caso queira.</Link>
+        <Link href={"/startPage"} className={styles.btn}>Aperte! Caso queira.</Link>
       </main>
       {/* <footer className={styles.footer}>
       </footer> */}
